@@ -2,6 +2,7 @@ import { readFileSync, rmSync } from 'node:fs';
 
 import gulp from 'gulp';
 import plumber from 'gulp-plumber';
+// eslint-disable-next-line no-unused-vars
 import htmlmin from 'gulp-htmlmin';
 import * as dartSass from 'sass';
 import gulpSass from 'gulp-sass';
