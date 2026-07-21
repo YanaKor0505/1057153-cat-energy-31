@@ -3,9 +3,13 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Название проекта</title>
+  <title>Cat Energy</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="stylesheet" href="styles/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="icon" href="favicons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="favicons/180.png">
+  <link rel="manifest" href="manifest.webmanifest">
   <script src="scripts/index.js" defer></script>
 </head>
 
@@ -42,7 +46,17 @@
       <div class="promo__wrapper">
         <h1 class="promo__title">Функциональное питание для котов</h1>
         <p class="promo__slogan">Занялся собой? Займись котом!</p>
-        <img class="promo__image" src="#" width="280" height="270" alt="Cat Energy">
+        <picture>
+          <source width="552" height="499" type="image/png" media="(min-width: 1440px)" srcset="images/hero-can-desktop@1x.png 1x, images/hero-can-desktop@2x.png 2x">
+          <source width="709" height="609" type="image/png" media="(min-width: 768px)" srcset="images/hero-can-tablet@1x.png 1x, images/hero-can-tablet@2x.png 2x">
+          <img class="promo__image" src="images/hero-can-mobile@1x.png" srcset="images/hero-can-mobile@2x.png 2x" width="280" height="270" alt="Cat Energy">
+        </picture>
+
+        <picture>
+          <source width="720" height="694" type="image/png" media="(min-width: 1440px)" srcset="images/index-background-desktop@1x.png 1x, images/index-background-desktop@2x.png 2x">
+          <img class="promo__background-image" src="images/index-background-mobile@1x.png" srcset="images/index-background-mobile@2x.png 2x" width="320" height="302" alt="Довольный котик">
+        </picture>
+
         <button class="promo__button button" type="button">подобрать программу</button>
       </div>
     </section>
@@ -113,10 +127,14 @@
         <div class="cats-image slider">
           <ul class="cats-image__list slider__list">
             <li class="cats-image__item slider__item">
-              <img class="cats-image__item-image" src="#" width="280" height="270" alt="Примеры изменений 1">
+              <picture>
+                <img class="cats-image__item-image" src="images/before-cat@1x.png" srcset="images/before-cat@2x.png 2x" width="140" height="256" alt="Котик до изменений">
+              </picture>
             </li>
             <li class="cats-image__item slider__item">
-              <img class="cats-image__item-image" src="#" width="280" height="270" alt="Примеры изменений 2">
+              <picture>
+                <img class="cats-image__item-image" src="images/after-cat@1x.png" srcset="images/after-cat@2x.png 2x" width="140" height="256" alt="Котик после изменений">
+              </picture>
             </li>
           </ul>
           <p class="cats-image__toggles slider__toggles">
@@ -139,7 +157,11 @@
           </div>
         </div>
         <div class="contacts__map">
-          <img class="contacts__map-image" src="#" width="280" height="270" alt="Карта">
+          <picture>
+            <source width="1440" height="400" type="image/png" media="(min-width: 1440px)" srcset="images/map-desktop@1x.png 1x, images/map-desktop@2x.png 2x">
+            <source width="768" height="400" type="image/png" media="(min-width: 768px)" srcset="images/map-tablet@1x.png 1x, images/map-tablet@2x.png 2x">
+            <img class="contacts__map-image" src="images/map-mobile@1x.png" srcset="images/map-mobile@2x.png 2x" width="320" height="362" alt="Карта">
+          </picture>
         </div>
       </div>
     </section>
