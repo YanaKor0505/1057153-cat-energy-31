@@ -6,6 +6,9 @@
 @import "./common/common.scss";
 
 /* BLOCKS */
+@import "./blocks/title.scss";
+@import "./blocks/subtitle.scss";
+@import "./blocks/paragraph.scss";
 @import "./blocks/button.scss";
 @import "./blocks/logo.scss";
 @import "./blocks/visually-hidden.scss";

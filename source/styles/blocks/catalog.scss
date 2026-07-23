@@ -47,13 +47,15 @@
 // .catalog__tech-info {}
 // .catalog__row {}
 
-.catalog__parameter {
+.catalog__parameter,
+.catalog__value {
+  font-family: $secondary-font;
+  font-weight: 400;
+  font-size: 16px;
+  color: $special_dark-grey;
   line-height: 20px;
 }
 
-.catalog__value {
-  line-height: 20px;
-}
 
 .catalog__button {
   font-size: 16px;
