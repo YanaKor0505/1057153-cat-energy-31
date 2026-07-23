@@ -1,0 +1,28 @@
+// .promo {}
+// .promo__wrapper {}
+// .promo__title {}
+
+.promo__description {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+}
+
+// .promo__form {}
+
+.promo__input {
+  font-family: $primary-font;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: $special_dark-grey;
+  border: 1px solid $border-grey;
+  padding: 13px;
+}
+
+.promo__button {
+  padding: 15px 0;
+  line-height: 26px;
+}
