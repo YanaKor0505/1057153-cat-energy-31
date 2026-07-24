@@ -1,0 +1,39 @@
+// .examples {}
+// .examples__wrapper {}
+// .examples__title {}
+
+.examples__text {
+  color: $special_dark-grey;
+}
+
+// .examples__list {}
+// .examples__item {}
+
+.examples__quantity {
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+}
+
+.examples__description {
+  font-family: $secondary-font;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  color: $special_dark-grey;
+}
+
+.examples__result {
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.examples__result-text {
+  font-weight: 400;
+}
+
+.examples__result-price {
+  font-weight: 400;
+}

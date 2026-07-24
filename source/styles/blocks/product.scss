@@ -1,0 +1,26 @@
+// .product {}
+.product__name {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  color: $special-dark-grey-2;
+}
+
+.product__table {
+  font-family: $secondary-font;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: $special_dark-grey;
+}
+
+// .product__value {}
+// .product__price {}
+
+.product__button {
+  font-size: 16px;
+  padding: 10px 0;
+}
